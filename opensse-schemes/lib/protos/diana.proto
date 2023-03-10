@@ -1,0 +1,49 @@
+
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+package sse.diana;
+
+service Diana {
+
+// Setup
+rpc setup (SetupMessage) returns (google.protobuf.Empty) {}
+
+// Search
+rpc search (SearchRequestMessage) returns (stream SearchReply) {}
+
+// Update
+rpc insert (UpdateRequestMessage) returns (google.protobuf.Empty) {}
+rpc bulk_insert (stream UpdateRequestMessage) returns (google.protobuf.Empty) {}
+
+}
+
+message SetupMessage
+{
+    bytes wrapping_key = 1;
+}
+
+message SearchToken
+{
+    bytes token = 1;
+    uint32 depth = 2;
+}
+
+message SearchRequestMessage
+{
+    bytes constrained_rcprf_rep = 1;
+    fixed32 add_count = 2;
+    bytes kw_token = 3;
+}
+
+message SearchReply
+{
+    uint64 result = 1;
+}
+
+message UpdateRequestMessage
+{
+    bytes update_token = 1;
+    uint64 index = 2;
+}

@@ -1,0 +1,13 @@
+{
+    "cmakeFormat.args": [
+        "--config-file",
+        "cmake-format.json"
+    ],
+    "files.associations": {
+        ".clang-format": "yaml",
+        ".clang-tidy": "yaml",
+        "SConstruct": "python",
+    },
+    "cmake.configureOnOpen": true,
+    "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+}

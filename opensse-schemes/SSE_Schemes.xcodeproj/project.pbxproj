@@ -1,0 +1,1284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		313CD45F1EC8C1430058A0C5 /* rocksdb_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 313CD45E1EC8C1430058A0C5 /* rocksdb_wrapper.cpp */; };
+		313CD4601EC8C1430058A0C5 /* rocksdb_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 313CD45E1EC8C1430058A0C5 /* rocksdb_wrapper.cpp */; };
+		313CD4611EC8C1430058A0C5 /* rocksdb_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 313CD45E1EC8C1430058A0C5 /* rocksdb_wrapper.cpp */; };
+		313CD4621EC8C1430058A0C5 /* rocksdb_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 313CD45E1EC8C1430058A0C5 /* rocksdb_wrapper.cpp */; };
+		313CD4631EC8C1430058A0C5 /* rocksdb_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 313CD45E1EC8C1430058A0C5 /* rocksdb_wrapper.cpp */; };
+		313CD4641EC8C1430058A0C5 /* rocksdb_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 313CD45E1EC8C1430058A0C5 /* rocksdb_wrapper.cpp */; };
+		313CD4771EC8FE720058A0C5 /* diana_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 318516981D51369700A44AD7 /* diana_common.cpp */; };
+		313CD4791EC8FE720058A0C5 /* token_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31548C571D3D8A14000A8346 /* token_tree.cpp */; };
+		313CD47A1EC8FE720058A0C5 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B1E8081CAC86A900643154 /* utils.cpp */; };
+		313CD47B1EC8FE720058A0C5 /* rocksdb_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 313CD45E1EC8C1430058A0C5 /* rocksdb_wrapper.cpp */; };
+		313CD47C1EC8FE720058A0C5 /* logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315EB1291CB42C7C00EB5D9F /* logger.cpp */; };
+		313CD47F1EC8FE720058A0C5 /* libsse_crypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9CBF2C1CAC0C33003B0185 /* libsse_crypto.dylib */; };
+		313CD4871EC8FEC10058A0C5 /* test_janus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 313CD4861EC8FEC10058A0C5 /* test_janus.cpp */; };
+		313CD48A1EC8FF0B0058A0C5 /* janus_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 313CD4881EC8FF0B0058A0C5 /* janus_client.cpp */; };
+		31523FB01EE7505A00973EEF /* janus_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31523FAE1EE7505A00973EEF /* janus_server.cpp */; };
+		31548C5E1D3D8DE5000A8346 /* sophos_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31FC7B1A1D3D787900E54019 /* sophos_server.cpp */; };
+		31548C611D3D8DE5000A8346 /* sophos_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31FC7B1A1D3D787900E54019 /* sophos_server.cpp */; };
+		315A5A5B1CB15D9F0026DBB3 /* sophos_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315A5A531CB15D920026DBB3 /* sophos_client.cpp */; };
+		315B8DD21F853C63004A557D /* sophos_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315B8DD01F853C63004A557D /* sophos_common.cpp */; };
+		315B8DD31F853C63004A557D /* sophos_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315B8DD01F853C63004A557D /* sophos_common.cpp */; };
+		315B8DD41F853C63004A557D /* sophos_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315B8DD01F853C63004A557D /* sophos_common.cpp */; };
+		315B8DD71F8546B2004A557D /* sophos_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315B8DD51F8546B2004A557D /* sophos_client.cpp */; };
+		315B8DD81F8546B2004A557D /* sophos_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315B8DD51F8546B2004A557D /* sophos_client.cpp */; };
+		315B8DD91F8546B2004A557D /* sophos_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315B8DD51F8546B2004A557D /* sophos_client.cpp */; };
+		315EB12B1CB42C7C00EB5D9F /* logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315EB1291CB42C7C00EB5D9F /* logger.cpp */; };
+		315EB1331CB432E100EB5D9F /* logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315EB1291CB42C7C00EB5D9F /* logger.cpp */; };
+		315EB1341CB432E200EB5D9F /* logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315EB1291CB42C7C00EB5D9F /* logger.cpp */; };
+		3185169A1D51369700A44AD7 /* diana_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 318516981D51369700A44AD7 /* diana_common.cpp */; };
+		3185169B1D51369700A44AD7 /* diana_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 318516981D51369700A44AD7 /* diana_common.cpp */; };
+		3185169C1D51369700A44AD7 /* diana_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 318516981D51369700A44AD7 /* diana_common.cpp */; };
+		31B1E80A1CAC86A900643154 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B1E8081CAC86A900643154 /* utils.cpp */; };
+		31B1E80B1CAC86A900643154 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B1E8081CAC86A900643154 /* utils.cpp */; };
+		31B1E80C1CAC86A900643154 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B1E8081CAC86A900643154 /* utils.cpp */; };
+		31FC7B451D3EC9A100E54019 /* sophos_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31FC7B1A1D3D787900E54019 /* sophos_server.cpp */; };
+		31FC7B4D1D3ECE1700E54019 /* test_sophos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B08D8E1CAAE4A600DD6BF8 /* test_sophos.cpp */; };
+		31FC7B551D3ECE7800E54019 /* token_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31548C571D3D8A14000A8346 /* token_tree.cpp */; };
+		31FC7B5A1D3ECE7800E54019 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B1E8081CAC86A900643154 /* utils.cpp */; };
+		31FC7B5C1D3ECE7800E54019 /* logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315EB1291CB42C7C00EB5D9F /* logger.cpp */; };
+		31FC7B5F1D3ECE7800E54019 /* libsse_crypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9CBF2C1CAC0C33003B0185 /* libsse_crypto.dylib */; };
+		31FC7B661D3ECE8F00E54019 /* test_diana.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31FC7B4B1D3ECD8800E54019 /* test_diana.cpp */; };
+		31FC7B6D1D3F5A6400E54019 /* diana.proto in Sources */ = {isa = PBXBuildFile; fileRef = 31FC7B311D3E375800E54019 /* diana.proto */; };
+		31FC7B6E1D3F5A6400E54019 /* token_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31548C571D3D8A14000A8346 /* token_tree.cpp */; };
+		31FC7B721D3F5A6400E54019 /* logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315EB1291CB42C7C00EB5D9F /* logger.cpp */; };
+		31FC7B751D3F5A6400E54019 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B1E8081CAC86A900643154 /* utils.cpp */; };
+		31FC7B781D3F5A6400E54019 /* libsse_crypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9CBF2C1CAC0C33003B0185 /* libsse_crypto.dylib */; };
+		31FC7B871D3F5A6B00E54019 /* diana.proto in Sources */ = {isa = PBXBuildFile; fileRef = 31FC7B311D3E375800E54019 /* diana.proto */; };
+		31FC7B8C1D3F5A6B00E54019 /* logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315EB1291CB42C7C00EB5D9F /* logger.cpp */; };
+		31FC7B8D1D3F5A6B00E54019 /* db_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C74230A1CD20DF900A76B8C /* db_generator.cpp */; };
+		31FC7B8E1D3F5A6B00E54019 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31B1E8081CAC86A900643154 /* utils.cpp */; };
+		31FC7B901D3F5A6B00E54019 /* token_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31548C571D3D8A14000A8346 /* token_tree.cpp */; };
+		31FC7B941D3F5A6B00E54019 /* libparser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 315EC2781CB2D660009511D5 /* libparser.dylib */; };
+		31FC7B961D3F5A6B00E54019 /* libsse_crypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9CBF2C1CAC0C33003B0185 /* libsse_crypto.dylib */; };
+		31FC7BA81D3F5F1700E54019 /* sophos_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315A5A5C1CB15DEF0026DBB3 /* sophos_server.cpp */; };
+		31FC7BAB1D3F664600E54019 /* diana_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31FC7BA91D3F664200E54019 /* diana_client.cpp */; };
+		31FC7BAC1D3F664900E54019 /* diana_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31FC7BAA1D3F664200E54019 /* diana_server.cpp */; };
+		31FC7BAF1D3F6B6600E54019 /* server_runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31FC7BAD1D3F6B6600E54019 /* server_runner.cpp */; };
+		31FC7BB21D3F895200E54019 /* client_runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31FC7BB01D3F895200E54019 /* client_runner.cpp */; };
+		6C74230D1CD20DF900A76B8C /* db_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C74230A1CD20DF900A76B8C /* db_generator.cpp */; };
+		6C9CBEC41CABBFCC003B0185 /* sophos.proto in Sources */ = {isa = PBXBuildFile; fileRef = 31B08D971CAAE58100DD6BF8 /* sophos.proto */; };
+		6C9CBECF1CABC007003B0185 /* sophos.proto in Sources */ = {isa = PBXBuildFile; fileRef = 31B08D971CAAE58100DD6BF8 /* sophos.proto */; };
+		6C9CBED71CABC38B003B0185 /* sophos_server_runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9CBEBE1CABBEBA003B0185 /* sophos_server_runner.cpp */; };
+		6C9CBEDA1CABC6B0003B0185 /* sophos_client_runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9CBEBB1CABBEAD003B0185 /* sophos_client_runner.cpp */; };
+		6C9CBF301CAC0FB2003B0185 /* libsse_crypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9CBF2C1CAC0C33003B0185 /* libsse_crypto.dylib */; };
+		6C9CBF321CAC0FC0003B0185 /* libsse_crypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9CBF2C1CAC0C33003B0185 /* libsse_crypto.dylib */; };
+		6C9CBF3C1CAC0FD6003B0185 /* libsse_crypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9CBF2C1CAC0C33003B0185 /* libsse_crypto.dylib */; };
+		6CF416021CB3F02200C448D4 /* libparser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 315EC2781CB2D660009511D5 /* libparser.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		313CD4811EC8FE720058A0C5 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.proto";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.hh",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.hh",
+			);
+			script = "cd ${INPUT_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --cpp_out=${DERIVED_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --grpc_out=${DERIVED_FILE_DIR} --plugin=protoc-gen-grpc=`which grpc_cpp_plugin`";
+		};
+		31B08D981CAAE7A400DD6BF8 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.proto";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.hh",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.hh",
+			);
+			script = "cd ${INPUT_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --cpp_out=${DERIVED_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --grpc_out=${DERIVED_FILE_DIR} --plugin=protoc-gen-grpc=`which grpc_cpp_plugin`";
+		};
+		31FC7B611D3ECE7800E54019 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.proto";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.hh",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.hh",
+			);
+			script = "cd ${INPUT_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --cpp_out=${DERIVED_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --grpc_out=${DERIVED_FILE_DIR} --plugin=protoc-gen-grpc=`which grpc_cpp_plugin`";
+		};
+		31FC7B7A1D3F5A6400E54019 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.proto";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.hh",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.hh",
+			);
+			script = "cd ${INPUT_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --cpp_out=${DERIVED_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --grpc_out=${DERIVED_FILE_DIR} --plugin=protoc-gen-grpc=`which grpc_cpp_plugin`";
+		};
+		31FC7B981D3F5A6B00E54019 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.proto";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.hh",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.hh",
+			);
+			script = "cd ${INPUT_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --cpp_out=${DERIVED_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --grpc_out=${DERIVED_FILE_DIR} --plugin=protoc-gen-grpc=`which grpc_cpp_plugin`";
+		};
+		6C9CBEC71CABBFCC003B0185 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.proto";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.hh",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.hh",
+			);
+			script = "cd ${INPUT_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --cpp_out=${DERIVED_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --grpc_out=${DERIVED_FILE_DIR} --plugin=protoc-gen-grpc=`which grpc_cpp_plugin`";
+		};
+		6C9CBED21CABC007003B0185 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.proto";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).pb.hh",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.cc",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).grpc.pb.hh",
+			);
+			script = "cd ${INPUT_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --cpp_out=${DERIVED_FILE_DIR}\n/usr/local/bin/protoc --proto_path=${INPUT_FILE_DIR} ${INPUT_FILE_PATH} --grpc_out=${DERIVED_FILE_DIR} --plugin=protoc-gen-grpc=`which grpc_cpp_plugin`";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		313CD4731EC8FE720058A0C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9CBF1F1CAC0C33003B0185 /* libsse_crypto.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC2D4BC1C3193AE00334ADD;
+			remoteInfo = libsse_crypto;
+		};
+		315EC2751CB2D660009511D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315EC2701CB2D660009511D5 /* db-parser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 16A3E4D21C17202C00383B85;
+			remoteInfo = native_test;
+		};
+		315EC2771CB2D660009511D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315EC2701CB2D660009511D5 /* db-parser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 163E9E661C17446D00E63E9E;
+			remoteInfo = libparser;
+		};
+		315EC2821CB2D837009511D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315EC2701CB2D660009511D5 /* db-parser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 163E9E651C17446D00E63E9E;
+			remoteInfo = libparser;
+		};
+		31FC7B501D3ECE7800E54019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9CBF1F1CAC0C33003B0185 /* libsse_crypto.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC2D4BC1C3193AE00334ADD;
+			remoteInfo = libsse_crypto;
+		};
+		31FC7B691D3F5A6400E54019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9CBF1F1CAC0C33003B0185 /* libsse_crypto.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC2D4BC1C3193AE00334ADD;
+			remoteInfo = libsse_crypto;
+		};
+		31FC7B811D3F5A6B00E54019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315EC2701CB2D660009511D5 /* db-parser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 163E9E651C17446D00E63E9E;
+			remoteInfo = libparser;
+		};
+		31FC7B831D3F5A6B00E54019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9CBF1F1CAC0C33003B0185 /* libsse_crypto.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC2D4BC1C3193AE00334ADD;
+			remoteInfo = libsse_crypto;
+		};
+		6C9CBF271CAC0C33003B0185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9CBF1F1CAC0C33003B0185 /* libsse_crypto.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6CC2D47B1C31888000334ADD;
+			remoteInfo = native_checks;
+		};
+		6C9CBF291CAC0C33003B0185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9CBF1F1CAC0C33003B0185 /* libsse_crypto.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6CC2D4B71C318F2500334ADD;
+			remoteInfo = native_main;
+		};
+		6C9CBF2B1CAC0C33003B0185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9CBF1F1CAC0C33003B0185 /* libsse_crypto.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6CC2D4BD1C3193AE00334ADD;
+			remoteInfo = libsse_crypto;
+		};
+		6C9CBF2D1CAC0E63003B0185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9CBF1F1CAC0C33003B0185 /* libsse_crypto.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC2D4BC1C3193AE00334ADD;
+			remoteInfo = libsse_crypto;
+		};
+		6C9CBF331CAC0FCA003B0185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9CBF1F1CAC0C33003B0185 /* libsse_crypto.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC2D4BC1C3193AE00334ADD;
+			remoteInfo = libsse_crypto;
+		};
+		6C9CBF371CAC0FCF003B0185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9CBF1F1CAC0C33003B0185 /* libsse_crypto.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC2D4BC1C3193AE00334ADD;
+			remoteInfo = libsse_crypto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		313CD4801EC8FE720058A0C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		31B08D891CAAE4A600DD6BF8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		31FC7B601D3ECE7800E54019 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		31FC7B791D3F5A6400E54019 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		31FC7B971D3F5A6B00E54019 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6C9CBEC61CABBFCC003B0185 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6C9CBED11CABC007003B0185 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		313CD45E1EC8C1430058A0C5 /* rocksdb_wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rocksdb_wrapper.cpp; path = utils/rocksdb_wrapper.cpp; sourceTree = "<group>"; };
+		313CD4701EC8FBA30058A0C5 /* types.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = types.hpp; path = janus/types.hpp; sourceTree = "<group>"; };
+		313CD4851EC8FE720058A0C5 /* janus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = janus; sourceTree = BUILT_PRODUCTS_DIR; };
+		313CD4861EC8FEC10058A0C5 /* test_janus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_janus.cpp; sourceTree = "<group>"; };
+		313CD4881EC8FF0B0058A0C5 /* janus_client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = janus_client.cpp; path = janus/janus_client.cpp; sourceTree = "<group>"; };
+		313CD4891EC8FF0B0058A0C5 /* janus_client.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = janus_client.hpp; path = janus/janus_client.hpp; sourceTree = "<group>"; };
+		31523FAE1EE7505A00973EEF /* janus_server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = janus_server.cpp; path = janus/janus_server.cpp; sourceTree = "<group>"; };
+		31523FAF1EE7505A00973EEF /* janus_server.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = janus_server.hpp; path = janus/janus_server.hpp; sourceTree = "<group>"; };
+		31548C571D3D8A14000A8346 /* token_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = token_tree.cpp; sourceTree = "<group>"; };
+		31548C581D3D8A14000A8346 /* token_tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = token_tree.hpp; sourceTree = "<group>"; };
+		315A5A531CB15D920026DBB3 /* sophos_client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sophos_client.cpp; sourceTree = "<group>"; };
+		315A5A5C1CB15DEF0026DBB3 /* sophos_server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sophos_server.cpp; sourceTree = "<group>"; };
+		315A5A5E1CB189F70026DBB3 /* SConstruct */ = {isa = PBXFileReference; lastKnownFileType = text; path = SConstruct; sourceTree = "<group>"; };
+		315B8DD01F853C63004A557D /* sophos_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sophos_common.cpp; sourceTree = "<group>"; };
+		315B8DD11F853C63004A557D /* sophos_common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sophos_common.hpp; sourceTree = "<group>"; };
+		315B8DD51F8546B2004A557D /* sophos_client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sophos_client.cpp; sourceTree = "<group>"; };
+		315B8DD61F8546B2004A557D /* sophos_client.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sophos_client.hpp; sourceTree = "<group>"; };
+		315EB1291CB42C7C00EB5D9F /* logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = logger.cpp; path = utils/logger.cpp; sourceTree = "<group>"; };
+		315EB12A1CB42C7C00EB5D9F /* logger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = logger.hpp; path = utils/logger.hpp; sourceTree = "<group>"; };
+		315EB1441CB4719C00EB5D9F /* thread_pool.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = thread_pool.hpp; path = utils/thread_pool.hpp; sourceTree = "<group>"; };
+		315EB1451CB48B7900EB5D9F /* sophos_net_types.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sophos_net_types.hpp; sourceTree = "<group>"; };
+		315EC2701CB2D660009511D5 /* db-parser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "db-parser.xcodeproj"; path = "third_party/db-parser/db-parser.xcodeproj"; sourceTree = "<group>"; };
+		316F0D0D1D0F494A00F87904 /* rocksdb_wrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = rocksdb_wrapper.hpp; path = utils/rocksdb_wrapper.hpp; sourceTree = "<group>"; };
+		318516981D51369700A44AD7 /* diana_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = diana_common.cpp; sourceTree = "<group>"; };
+		318516991D51369700A44AD7 /* diana_common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = diana_common.hpp; sourceTree = "<group>"; };
+		31B08D8B1CAAE4A600DD6BF8 /* sophos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sophos; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B08D8E1CAAE4A600DD6BF8 /* test_sophos.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_sophos.cpp; sourceTree = "<group>"; };
+		31B08D971CAAE58100DD6BF8 /* sophos.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = sophos.proto; sourceTree = "<group>"; };
+		31B1E8081CAC86A900643154 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = utils.cpp; path = utils/utils.cpp; sourceTree = "<group>"; };
+		31B1E8091CAC86A900643154 /* utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = utils.hpp; path = utils/utils.hpp; sourceTree = "<group>"; };
+		31FC7B1A1D3D787900E54019 /* sophos_server.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sophos_server.cpp; sourceTree = "<group>"; };
+		31FC7B1B1D3D787900E54019 /* sophos_server.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sophos_server.hpp; sourceTree = "<group>"; };
+		31FC7B311D3E375800E54019 /* diana.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = diana.proto; sourceTree = "<group>"; };
+		31FC7B341D3E6F4500E54019 /* types.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = types.hpp; sourceTree = "<group>"; };
+		31FC7B361D3E760A00E54019 /* diana_client.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = diana_client.hpp; sourceTree = "<group>"; };
+		31FC7B391D3E761600E54019 /* diana_server.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = diana_server.hpp; sourceTree = "<group>"; };
+		31FC7B4B1D3ECD8800E54019 /* test_diana.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = test_diana.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		31FC7B651D3ECE7800E54019 /* diana */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = diana; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FC7B7E1D3F5A6400E54019 /* diana_server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = diana_server; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FC7B9C1D3F5A6B00E54019 /* diana_client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = diana_client; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FC7BA91D3F664200E54019 /* diana_client.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = diana_client.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		31FC7BAA1D3F664200E54019 /* diana_server.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = diana_server.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		31FC7BAD1D3F6B6600E54019 /* server_runner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = server_runner.cpp; sourceTree = "<group>"; };
+		31FC7BAE1D3F6B6600E54019 /* server_runner.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = server_runner.hpp; sourceTree = "<group>"; };
+		31FC7BB01D3F895200E54019 /* client_runner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = client_runner.cpp; sourceTree = "<group>"; };
+		31FC7BB11D3F895200E54019 /* client_runner.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = client_runner.hpp; sourceTree = "<group>"; };
+		6C74230A1CD20DF900A76B8C /* db_generator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = db_generator.cpp; sourceTree = "<group>"; };
+		6C74230B1CD20DF900A76B8C /* db_generator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = db_generator.hpp; sourceTree = "<group>"; };
+		6C9CBEBB1CABBEAD003B0185 /* sophos_client_runner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sophos_client_runner.cpp; sourceTree = "<group>"; };
+		6C9CBEBC1CABBEAD003B0185 /* sophos_client_runner.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sophos_client_runner.hpp; sourceTree = "<group>"; };
+		6C9CBEBE1CABBEBA003B0185 /* sophos_server_runner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sophos_server_runner.cpp; sourceTree = "<group>"; };
+		6C9CBEBF1CABBEBA003B0185 /* sophos_server_runner.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sophos_server_runner.hpp; sourceTree = "<group>"; };
+		6C9CBECB1CABBFCC003B0185 /* sophos_server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sophos_server; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9CBED61CABC007003B0185 /* sophos_client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sophos_client; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9CBF1F1CAC0C33003B0185 /* libsse_crypto.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libsse_crypto.xcodeproj; path = third_party/crypto/libsse_crypto.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		313CD47D1EC8FE720058A0C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313CD47F1EC8FE720058A0C5 /* libsse_crypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B08D881CAAE4A600DD6BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9CBF301CAC0FB2003B0185 /* libsse_crypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FC7B5D1D3ECE7800E54019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FC7B5F1D3ECE7800E54019 /* libsse_crypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FC7B761D3F5A6400E54019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FC7B781D3F5A6400E54019 /* libsse_crypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FC7B931D3F5A6B00E54019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FC7B941D3F5A6B00E54019 /* libparser.dylib in Frameworks */,
+				31FC7B961D3F5A6B00E54019 /* libsse_crypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9CBEC51CABBFCC003B0185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9CBF321CAC0FC0003B0185 /* libsse_crypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9CBED01CABC007003B0185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF416021CB3F02200C448D4 /* libparser.dylib in Frameworks */,
+				6C9CBF3C1CAC0FD6003B0185 /* libsse_crypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310C04E91D579AAD003E8345 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				315EB1291CB42C7C00EB5D9F /* logger.cpp */,
+				315EB12A1CB42C7C00EB5D9F /* logger.hpp */,
+				31B1E8081CAC86A900643154 /* utils.cpp */,
+				31B1E8091CAC86A900643154 /* utils.hpp */,
+				315EB1441CB4719C00EB5D9F /* thread_pool.hpp */,
+				316F0D0D1D0F494A00F87904 /* rocksdb_wrapper.hpp */,
+				313CD45E1EC8C1430058A0C5 /* rocksdb_wrapper.cpp */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		313CD4681EC8FB870058A0C5 /* janus */ = {
+			isa = PBXGroup;
+			children = (
+				313CD4701EC8FBA30058A0C5 /* types.hpp */,
+				313CD4881EC8FF0B0058A0C5 /* janus_client.cpp */,
+				313CD4891EC8FF0B0058A0C5 /* janus_client.hpp */,
+				31523FAE1EE7505A00973EEF /* janus_server.cpp */,
+				31523FAF1EE7505A00973EEF /* janus_server.hpp */,
+			);
+			name = janus;
+			sourceTree = "<group>";
+		};
+		31548C561D3D8A14000A8346 /* diana */ = {
+			isa = PBXGroup;
+			children = (
+				31548C571D3D8A14000A8346 /* token_tree.cpp */,
+				31548C581D3D8A14000A8346 /* token_tree.hpp */,
+				31FC7B341D3E6F4500E54019 /* types.hpp */,
+				318516981D51369700A44AD7 /* diana_common.cpp */,
+				318516991D51369700A44AD7 /* diana_common.hpp */,
+				31FC7B361D3E760A00E54019 /* diana_client.hpp */,
+				31FC7B391D3E761600E54019 /* diana_server.hpp */,
+				31FC7BB01D3F895200E54019 /* client_runner.cpp */,
+				31FC7BB11D3F895200E54019 /* client_runner.hpp */,
+				31FC7BAD1D3F6B6600E54019 /* server_runner.cpp */,
+				31FC7BAE1D3F6B6600E54019 /* server_runner.hpp */,
+			);
+			path = diana;
+			sourceTree = "<group>";
+		};
+		315EC2711CB2D660009511D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				315EC2761CB2D660009511D5 /* native_test */,
+				315EC2781CB2D660009511D5 /* libparser.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31B08D821CAAE4A600DD6BF8 = {
+			isa = PBXGroup;
+			children = (
+				315A5A5E1CB189F70026DBB3 /* SConstruct */,
+				313CD4861EC8FEC10058A0C5 /* test_janus.cpp */,
+				31FC7B4B1D3ECD8800E54019 /* test_diana.cpp */,
+				31FC7BA91D3F664200E54019 /* diana_client.cpp */,
+				31FC7BAA1D3F664200E54019 /* diana_server.cpp */,
+				31B08D8E1CAAE4A600DD6BF8 /* test_sophos.cpp */,
+				315A5A531CB15D920026DBB3 /* sophos_client.cpp */,
+				315A5A5C1CB15DEF0026DBB3 /* sophos_server.cpp */,
+				31B08D8D1CAAE4A600DD6BF8 /* src */,
+				31B08D8C1CAAE4A600DD6BF8 /* Products */,
+				6C9CBF1F1CAC0C33003B0185 /* libsse_crypto.xcodeproj */,
+				315EC2701CB2D660009511D5 /* db-parser.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		31B08D8C1CAAE4A600DD6BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31B08D8B1CAAE4A600DD6BF8 /* sophos */,
+				6C9CBECB1CABBFCC003B0185 /* sophos_server */,
+				6C9CBED61CABC007003B0185 /* sophos_client */,
+				31FC7B651D3ECE7800E54019 /* diana */,
+				31FC7B7E1D3F5A6400E54019 /* diana_server */,
+				31FC7B9C1D3F5A6B00E54019 /* diana_client */,
+				313CD4851EC8FE720058A0C5 /* janus */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31B08D8D1CAAE4A600DD6BF8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				31B08D961CAAE58100DD6BF8 /* protos */,
+				6C7423091CD20DDA00A76B8C /* aux */,
+				31FC7B151D3D787900E54019 /* sophos */,
+				31548C561D3D8A14000A8346 /* diana */,
+				313CD4681EC8FB870058A0C5 /* janus */,
+				310C04E91D579AAD003E8345 /* utils */,
+				315EB1451CB48B7900EB5D9F /* sophos_net_types.hpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		31B08D961CAAE58100DD6BF8 /* protos */ = {
+			isa = PBXGroup;
+			children = (
+				31FC7B311D3E375800E54019 /* diana.proto */,
+				31B08D971CAAE58100DD6BF8 /* sophos.proto */,
+			);
+			path = protos;
+			sourceTree = "<group>";
+		};
+		31FC7B151D3D787900E54019 /* sophos */ = {
+			isa = PBXGroup;
+			children = (
+				315B8DD01F853C63004A557D /* sophos_common.cpp */,
+				315B8DD11F853C63004A557D /* sophos_common.hpp */,
+				315B8DD51F8546B2004A557D /* sophos_client.cpp */,
+				315B8DD61F8546B2004A557D /* sophos_client.hpp */,
+				31FC7B1A1D3D787900E54019 /* sophos_server.cpp */,
+				31FC7B1B1D3D787900E54019 /* sophos_server.hpp */,
+				6C9CBEBB1CABBEAD003B0185 /* sophos_client_runner.cpp */,
+				6C9CBEBC1CABBEAD003B0185 /* sophos_client_runner.hpp */,
+				6C9CBEBE1CABBEBA003B0185 /* sophos_server_runner.cpp */,
+				6C9CBEBF1CABBEBA003B0185 /* sophos_server_runner.hpp */,
+			);
+			path = sophos;
+			sourceTree = "<group>";
+		};
+		6C7423091CD20DDA00A76B8C /* aux */ = {
+			isa = PBXGroup;
+			children = (
+				6C74230A1CD20DF900A76B8C /* db_generator.cpp */,
+				6C74230B1CD20DF900A76B8C /* db_generator.hpp */,
+			);
+			name = aux;
+			path = src/aux;
+			sourceTree = SOURCE_ROOT;
+		};
+		6C9CBF201CAC0C33003B0185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C9CBF281CAC0C33003B0185 /* native_checks */,
+				6C9CBF2A1CAC0C33003B0185 /* native_main */,
+				6C9CBF2C1CAC0C33003B0185 /* libsse_crypto.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		313CD4711EC8FE720058A0C5 /* janus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313CD4821EC8FE720058A0C5 /* Build configuration list for PBXNativeTarget "janus" */;
+			buildPhases = (
+				313CD4761EC8FE720058A0C5 /* Sources */,
+				313CD47D1EC8FE720058A0C5 /* Frameworks */,
+				313CD4801EC8FE720058A0C5 /* CopyFiles */,
+			);
+			buildRules = (
+				313CD4811EC8FE720058A0C5 /* PBXBuildRule */,
+			);
+			dependencies = (
+				313CD4721EC8FE720058A0C5 /* PBXTargetDependency */,
+			);
+			name = janus;
+			productName = sophos;
+			productReference = 313CD4851EC8FE720058A0C5 /* janus */;
+			productType = "com.apple.product-type.tool";
+		};
+		31B08D8A1CAAE4A600DD6BF8 /* sophos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B08D921CAAE4A600DD6BF8 /* Build configuration list for PBXNativeTarget "sophos" */;
+			buildPhases = (
+				31B08D871CAAE4A600DD6BF8 /* Sources */,
+				31B08D881CAAE4A600DD6BF8 /* Frameworks */,
+				31B08D891CAAE4A600DD6BF8 /* CopyFiles */,
+			);
+			buildRules = (
+				31B08D981CAAE7A400DD6BF8 /* PBXBuildRule */,
+			);
+			dependencies = (
+				6C9CBF2E1CAC0E63003B0185 /* PBXTargetDependency */,
+			);
+			name = sophos;
+			productName = sophos;
+			productReference = 31B08D8B1CAAE4A600DD6BF8 /* sophos */;
+			productType = "com.apple.product-type.tool";
+		};
+		31FC7B4E1D3ECE7800E54019 /* diana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FC7B621D3ECE7800E54019 /* Build configuration list for PBXNativeTarget "diana" */;
+			buildPhases = (
+				31FC7B531D3ECE7800E54019 /* Sources */,
+				31FC7B5D1D3ECE7800E54019 /* Frameworks */,
+				31FC7B601D3ECE7800E54019 /* CopyFiles */,
+			);
+			buildRules = (
+				31FC7B611D3ECE7800E54019 /* PBXBuildRule */,
+			);
+			dependencies = (
+				31FC7B4F1D3ECE7800E54019 /* PBXTargetDependency */,
+			);
+			name = diana;
+			productName = sophos;
+			productReference = 31FC7B651D3ECE7800E54019 /* diana */;
+			productType = "com.apple.product-type.tool";
+		};
+		31FC7B671D3F5A6400E54019 /* diana_server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FC7B7B1D3F5A6400E54019 /* Build configuration list for PBXNativeTarget "diana_server" */;
+			buildPhases = (
+				31FC7B6C1D3F5A6400E54019 /* Sources */,
+				31FC7B761D3F5A6400E54019 /* Frameworks */,
+				31FC7B791D3F5A6400E54019 /* CopyFiles */,
+			);
+			buildRules = (
+				31FC7B7A1D3F5A6400E54019 /* PBXBuildRule */,
+			);
+			dependencies = (
+				31FC7B681D3F5A6400E54019 /* PBXTargetDependency */,
+			);
+			name = diana_server;
+			productName = sophos;
+			productReference = 31FC7B7E1D3F5A6400E54019 /* diana_server */;
+			productType = "com.apple.product-type.tool";
+		};
+		31FC7B7F1D3F5A6B00E54019 /* diana_client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FC7B991D3F5A6B00E54019 /* Build configuration list for PBXNativeTarget "diana_client" */;
+			buildPhases = (
+				31FC7B861D3F5A6B00E54019 /* Sources */,
+				31FC7B931D3F5A6B00E54019 /* Frameworks */,
+				31FC7B971D3F5A6B00E54019 /* CopyFiles */,
+			);
+			buildRules = (
+				31FC7B981D3F5A6B00E54019 /* PBXBuildRule */,
+			);
+			dependencies = (
+				31FC7B801D3F5A6B00E54019 /* PBXTargetDependency */,
+				31FC7B821D3F5A6B00E54019 /* PBXTargetDependency */,
+			);
+			name = diana_client;
+			productName = sophos;
+			productReference = 31FC7B9C1D3F5A6B00E54019 /* diana_client */;
+			productType = "com.apple.product-type.tool";
+		};
+		6C9CBEC11CABBFCC003B0185 /* sophos_server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9CBEC81CABBFCC003B0185 /* Build configuration list for PBXNativeTarget "sophos_server" */;
+			buildPhases = (
+				6C9CBEC21CABBFCC003B0185 /* Sources */,
+				6C9CBEC51CABBFCC003B0185 /* Frameworks */,
+				6C9CBEC61CABBFCC003B0185 /* CopyFiles */,
+			);
+			buildRules = (
+				6C9CBEC71CABBFCC003B0185 /* PBXBuildRule */,
+			);
+			dependencies = (
+				6C9CBF341CAC0FCA003B0185 /* PBXTargetDependency */,
+			);
+			name = sophos_server;
+			productName = sophos;
+			productReference = 6C9CBECB1CABBFCC003B0185 /* sophos_server */;
+			productType = "com.apple.product-type.tool";
+		};
+		6C9CBECC1CABC007003B0185 /* sophos_client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9CBED31CABC007003B0185 /* Build configuration list for PBXNativeTarget "sophos_client" */;
+			buildPhases = (
+				6C9CBECD1CABC007003B0185 /* Sources */,
+				6C9CBED01CABC007003B0185 /* Frameworks */,
+				6C9CBED11CABC007003B0185 /* CopyFiles */,
+			);
+			buildRules = (
+				6C9CBED21CABC007003B0185 /* PBXBuildRule */,
+			);
+			dependencies = (
+				315EC2831CB2D837009511D5 /* PBXTargetDependency */,
+				6C9CBF381CAC0FCF003B0185 /* PBXTargetDependency */,
+			);
+			name = sophos_client;
+			productName = sophos;
+			productReference = 6C9CBED61CABC007003B0185 /* sophos_client */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31B08D831CAAE4A600DD6BF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Raphael Bost";
+				TargetAttributes = {
+					31B08D8A1CAAE4A600DD6BF8 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 31B08D861CAAE4A600DD6BF8 /* Build configuration list for PBXProject "SSE_Schemes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31B08D821CAAE4A600DD6BF8;
+			productRefGroup = 31B08D8C1CAAE4A600DD6BF8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 315EC2711CB2D660009511D5 /* Products */;
+					ProjectRef = 315EC2701CB2D660009511D5 /* db-parser.xcodeproj */;
+				},
+				{
+					ProductGroup = 6C9CBF201CAC0C33003B0185 /* Products */;
+					ProjectRef = 6C9CBF1F1CAC0C33003B0185 /* libsse_crypto.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				31B08D8A1CAAE4A600DD6BF8 /* sophos */,
+				6C9CBEC11CABBFCC003B0185 /* sophos_server */,
+				6C9CBECC1CABC007003B0185 /* sophos_client */,
+				31FC7B4E1D3ECE7800E54019 /* diana */,
+				31FC7B671D3F5A6400E54019 /* diana_server */,
+				31FC7B7F1D3F5A6B00E54019 /* diana_client */,
+				313CD4711EC8FE720058A0C5 /* janus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		315EC2761CB2D660009511D5 /* native_test */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = native_test;
+			remoteRef = 315EC2751CB2D660009511D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		315EC2781CB2D660009511D5 /* libparser.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libparser.dylib;
+			remoteRef = 315EC2771CB2D660009511D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6C9CBF281CAC0C33003B0185 /* native_checks */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = native_checks;
+			path = "native checks";
+			remoteRef = 6C9CBF271CAC0C33003B0185 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6C9CBF2A1CAC0C33003B0185 /* native_main */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = native_main;
+			remoteRef = 6C9CBF291CAC0C33003B0185 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6C9CBF2C1CAC0C33003B0185 /* libsse_crypto.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libsse_crypto.dylib;
+			remoteRef = 6C9CBF2B1CAC0C33003B0185 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		313CD4761EC8FE720058A0C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31523FB01EE7505A00973EEF /* janus_server.cpp in Sources */,
+				313CD48A1EC8FF0B0058A0C5 /* janus_client.cpp in Sources */,
+				313CD4771EC8FE720058A0C5 /* diana_common.cpp in Sources */,
+				313CD4791EC8FE720058A0C5 /* token_tree.cpp in Sources */,
+				313CD47A1EC8FE720058A0C5 /* utils.cpp in Sources */,
+				313CD47B1EC8FE720058A0C5 /* rocksdb_wrapper.cpp in Sources */,
+				313CD47C1EC8FE720058A0C5 /* logger.cpp in Sources */,
+				313CD4871EC8FEC10058A0C5 /* test_janus.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B08D871CAAE4A600DD6BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FC7B4D1D3ECE1700E54019 /* test_sophos.cpp in Sources */,
+				313CD45F1EC8C1430058A0C5 /* rocksdb_wrapper.cpp in Sources */,
+				315B8DD21F853C63004A557D /* sophos_common.cpp in Sources */,
+				31FC7B451D3EC9A100E54019 /* sophos_server.cpp in Sources */,
+				31B1E80A1CAC86A900643154 /* utils.cpp in Sources */,
+				315EB12B1CB42C7C00EB5D9F /* logger.cpp in Sources */,
+				315B8DD71F8546B2004A557D /* sophos_client.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FC7B531D3ECE7800E54019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3185169A1D51369700A44AD7 /* diana_common.cpp in Sources */,
+				31FC7B661D3ECE8F00E54019 /* test_diana.cpp in Sources */,
+				31FC7B551D3ECE7800E54019 /* token_tree.cpp in Sources */,
+				31FC7B5A1D3ECE7800E54019 /* utils.cpp in Sources */,
+				313CD4621EC8C1430058A0C5 /* rocksdb_wrapper.cpp in Sources */,
+				31FC7B5C1D3ECE7800E54019 /* logger.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FC7B6C1D3F5A6400E54019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FC7B6D1D3F5A6400E54019 /* diana.proto in Sources */,
+				31FC7B6E1D3F5A6400E54019 /* token_tree.cpp in Sources */,
+				3185169B1D51369700A44AD7 /* diana_common.cpp in Sources */,
+				31FC7BAF1D3F6B6600E54019 /* server_runner.cpp in Sources */,
+				313CD4631EC8C1430058A0C5 /* rocksdb_wrapper.cpp in Sources */,
+				31FC7B721D3F5A6400E54019 /* logger.cpp in Sources */,
+				31FC7BAC1D3F664900E54019 /* diana_server.cpp in Sources */,
+				31FC7B751D3F5A6400E54019 /* utils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FC7B861D3F5A6B00E54019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FC7B871D3F5A6B00E54019 /* diana.proto in Sources */,
+				31FC7BB21D3F895200E54019 /* client_runner.cpp in Sources */,
+				31FC7B8C1D3F5A6B00E54019 /* logger.cpp in Sources */,
+				31FC7B8D1D3F5A6B00E54019 /* db_generator.cpp in Sources */,
+				31FC7B8E1D3F5A6B00E54019 /* utils.cpp in Sources */,
+				31FC7BAB1D3F664600E54019 /* diana_client.cpp in Sources */,
+				31FC7B901D3F5A6B00E54019 /* token_tree.cpp in Sources */,
+				313CD4641EC8C1430058A0C5 /* rocksdb_wrapper.cpp in Sources */,
+				3185169C1D51369700A44AD7 /* diana_common.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9CBEC21CABBFCC003B0185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9CBED71CABC38B003B0185 /* sophos_server_runner.cpp in Sources */,
+				313CD4601EC8C1430058A0C5 /* rocksdb_wrapper.cpp in Sources */,
+				31FC7BA81D3F5F1700E54019 /* sophos_server.cpp in Sources */,
+				6C9CBEC41CABBFCC003B0185 /* sophos.proto in Sources */,
+				315EB1331CB432E100EB5D9F /* logger.cpp in Sources */,
+				31548C611D3D8DE5000A8346 /* sophos_server.cpp in Sources */,
+				315B8DD81F8546B2004A557D /* sophos_client.cpp in Sources */,
+				315B8DD31F853C63004A557D /* sophos_common.cpp in Sources */,
+				31B1E80B1CAC86A900643154 /* utils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9CBECD1CABC007003B0185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9CBEDA1CABC6B0003B0185 /* sophos_client_runner.cpp in Sources */,
+				6C9CBECF1CABC007003B0185 /* sophos.proto in Sources */,
+				315EB1341CB432E200EB5D9F /* logger.cpp in Sources */,
+				6C74230D1CD20DF900A76B8C /* db_generator.cpp in Sources */,
+				31B1E80C1CAC86A900643154 /* utils.cpp in Sources */,
+				31548C5E1D3D8DE5000A8346 /* sophos_server.cpp in Sources */,
+				313CD4611EC8C1430058A0C5 /* rocksdb_wrapper.cpp in Sources */,
+				315A5A5B1CB15D9F0026DBB3 /* sophos_client.cpp in Sources */,
+				315B8DD91F8546B2004A557D /* sophos_client.cpp in Sources */,
+				315B8DD41F853C63004A557D /* sophos_common.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		313CD4721EC8FE720058A0C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsse_crypto;
+			targetProxy = 313CD4731EC8FE720058A0C5 /* PBXContainerItemProxy */;
+		};
+		315EC2831CB2D837009511D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libparser;
+			targetProxy = 315EC2821CB2D837009511D5 /* PBXContainerItemProxy */;
+		};
+		31FC7B4F1D3ECE7800E54019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsse_crypto;
+			targetProxy = 31FC7B501D3ECE7800E54019 /* PBXContainerItemProxy */;
+		};
+		31FC7B681D3F5A6400E54019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsse_crypto;
+			targetProxy = 31FC7B691D3F5A6400E54019 /* PBXContainerItemProxy */;
+		};
+		31FC7B801D3F5A6B00E54019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libparser;
+			targetProxy = 31FC7B811D3F5A6B00E54019 /* PBXContainerItemProxy */;
+		};
+		31FC7B821D3F5A6B00E54019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsse_crypto;
+			targetProxy = 31FC7B831D3F5A6B00E54019 /* PBXContainerItemProxy */;
+		};
+		6C9CBF2E1CAC0E63003B0185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsse_crypto;
+			targetProxy = 6C9CBF2D1CAC0E63003B0185 /* PBXContainerItemProxy */;
+		};
+		6C9CBF341CAC0FCA003B0185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsse_crypto;
+			targetProxy = 6C9CBF331CAC0FCA003B0185 /* PBXContainerItemProxy */;
+		};
+		6C9CBF381CAC0FCF003B0185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsse_crypto;
+			targetProxy = 6C9CBF371CAC0FCF003B0185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		313CD4831EC8FE720058A0C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		313CD4841EC8FE720058A0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31B08D901CAAE4A600DD6BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					BENCHMARK,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lgrpc++_unsecure",
+					"-lgrpc",
+					"-lprotobuf",
+					"-lpthread",
+					"-ldl",
+					"-lrocksdb",
+					"-lz",
+					"-lsnappy",
+					"-llz4",
+					"-lbz2",
+					"-lsodium",
+				);
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = src;
+				WARNING_CFLAGS = "-Wall ";
+			};
+			name = Debug;
+		};
+		31B08D911CAAE4A600DD6BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = BENCHMARK;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-lgrpc++_unsecure",
+					"-lgrpc",
+					"-lprotobuf",
+					"-lpthread",
+					"-ldl",
+					"-lrocksdb",
+					"-lz",
+					"-lsnappy",
+					"-llz4",
+					"-lbz2",
+					"-lsodium",
+				);
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = src;
+				WARNING_CFLAGS = "-Wall ";
+			};
+			name = Release;
+		};
+		31B08D931CAAE4A600DD6BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31B08D941CAAE4A600DD6BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31FC7B631D3ECE7800E54019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31FC7B641D3ECE7800E54019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31FC7B7C1D3F5A6400E54019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31FC7B7D1D3F5A6400E54019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31FC7B9A1D3F5A6B00E54019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31FC7B9B1D3F5A6B00E54019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C9CBEC91CABBFCC003B0185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C9CBECA1CABBFCC003B0185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C9CBED41CABC007003B0185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C9CBED51CABC007003B0185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		313CD4821EC8FE720058A0C5 /* Build configuration list for PBXNativeTarget "janus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313CD4831EC8FE720058A0C5 /* Debug */,
+				313CD4841EC8FE720058A0C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B08D861CAAE4A600DD6BF8 /* Build configuration list for PBXProject "SSE_Schemes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B08D901CAAE4A600DD6BF8 /* Debug */,
+				31B08D911CAAE4A600DD6BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B08D921CAAE4A600DD6BF8 /* Build configuration list for PBXNativeTarget "sophos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B08D931CAAE4A600DD6BF8 /* Debug */,
+				31B08D941CAAE4A600DD6BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FC7B621D3ECE7800E54019 /* Build configuration list for PBXNativeTarget "diana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FC7B631D3ECE7800E54019 /* Debug */,
+				31FC7B641D3ECE7800E54019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FC7B7B1D3F5A6400E54019 /* Build configuration list for PBXNativeTarget "diana_server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FC7B7C1D3F5A6400E54019 /* Debug */,
+				31FC7B7D1D3F5A6400E54019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FC7B991D3F5A6B00E54019 /* Build configuration list for PBXNativeTarget "diana_client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FC7B9A1D3F5A6B00E54019 /* Debug */,
+				31FC7B9B1D3F5A6B00E54019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9CBEC81CABBFCC003B0185 /* Build configuration list for PBXNativeTarget "sophos_server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9CBEC91CABBFCC003B0185 /* Debug */,
+				6C9CBECA1CABBFCC003B0185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9CBED31CABC007003B0185 /* Build configuration list for PBXNativeTarget "sophos_client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9CBED41CABC007003B0185 /* Debug */,
+				6C9CBED51CABC007003B0185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31B08D831CAAE4A600DD6BF8 /* Project object */;
+}

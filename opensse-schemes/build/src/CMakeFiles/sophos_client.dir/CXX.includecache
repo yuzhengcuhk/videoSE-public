@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/th/opensse-schemes/src/sophos_client.cpp
+sse/runners/sophos/sophos_client_runner.hpp
+-
+sse/schemes/utils/db_generator.hpp
+-
+sse/schemes/utils/logger.hpp
+-
+sse/crypto/utils.hpp
+-
+cstdio
+-
+grpcpp/grpcpp.h
+-
+unistd.h
+-
+mutex
+-
+

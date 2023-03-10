@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/th/opensse-schemes/externals/googletest/googletest/src/gtest_main.cc
+stdio.h
+-
+gtest/gtest.h
+/home/th/opensse-schemes/externals/googletest/googletest/src/gtest/gtest.h
+

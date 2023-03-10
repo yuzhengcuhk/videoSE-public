@@ -1,0 +1,23 @@
+Import('*')
+
+sophos_proto_out = env.Protoc([], 'sophos.proto',
+       PROTOPATH=[Dir('.')], PROTOCPPOUT=Dir('..').abspath)
+
+sophos_gprc_out = env.Grpc([], 'sophos.proto',
+       PROTOPATH=[Dir('.')], GRPCPPOUT=Dir('..').abspath)
+sophos_out = sophos_proto_out + sophos_gprc_out
+
+
+diana_proto_out = env.Protoc([], 'diana.proto',
+       PROTOPATH=[Dir('.')], PROTOCPPOUT=Dir('..').abspath)
+
+diana_gprc_out = env.Grpc([], 'diana.proto',
+       PROTOPATH=[Dir('.')], GRPCPPOUT=Dir('..').abspath)
+diana_out = diana_proto_out + diana_gprc_out
+
+
+out = {}
+out['sophos'] = sophos_out
+out['diana'] = diana_out
+
+Return('out')

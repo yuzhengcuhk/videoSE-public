@@ -1,0 +1,5 @@
+if(EXISTS "/home/th/opensse-schemes/build/test/check[1]_tests.cmake")
+  include("/home/th/opensse-schemes/build/test/check[1]_tests.cmake")
+else()
+  add_test(check_NOT_BUILT check_NOT_BUILT)
+endif()

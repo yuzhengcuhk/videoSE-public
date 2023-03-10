@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/th/opensse-schemes/test/debug_diana.cpp
+sse/schemes/diana/diana_client.hpp
+-
+sse/schemes/diana/diana_server.hpp
+-
+sse/schemes/utils/logger.hpp
+-
+sse/schemes/utils/utils.hpp
+-
+sse/crypto/utils.hpp
+-
+fstream
+-
+iostream
+-
+memory
+-
+

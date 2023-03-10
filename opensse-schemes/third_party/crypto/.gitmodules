@@ -1,0 +1,12 @@
+[submodule "externals/CMake-codecov"]
+	path = externals/CMake-codecov
+	url = https://github.com/rbost/CMake-codecov.git
+[submodule "externals/sanitizers-cmake"]
+	path = externals/sanitizers-cmake
+	url = https://github.com/arsenm/sanitizers-cmake.git
+[submodule "externals/googletest"]
+	path = externals/googletest
+	url = https://github.com/google/googletest.git
+[submodule "externals/cmake-flag-manager"]
+	path = externals/cmake-flag-manager
+	url = https://github.com/rbost/cmake-flag-manager.git

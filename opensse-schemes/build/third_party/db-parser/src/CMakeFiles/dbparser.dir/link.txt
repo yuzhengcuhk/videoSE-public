@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libdbparser.so -o libdbparser.so CMakeFiles/dbparser.dir/DBParser.cpp.o CMakeFiles/dbparser.dir/json/DBParserJSON.cpp.o 

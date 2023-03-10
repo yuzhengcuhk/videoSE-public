@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/th/opensse-schemes/third_party/db-parser/src/DBParser.cpp
+DBParser.h
+/home/th/opensse-schemes/third_party/db-parser/src/DBParser.h
+cstdio
+-
+iostream
+-
+
+/home/th/opensse-schemes/third_party/db-parser/src/json/DBParserJSON.cpp
+json/DBParserJSON.h
+/home/th/opensse-schemes/third_party/db-parser/src/json/json/DBParserJSON.h
+json/rapidjson/document.h
+/home/th/opensse-schemes/third_party/db-parser/src/json/json/rapidjson/document.h
+json/rapidjson/filereadstream.h
+/home/th/opensse-schemes/third_party/db-parser/src/json/json/rapidjson/filereadstream.h
+cstdio
+-
+iostream
+-
+
