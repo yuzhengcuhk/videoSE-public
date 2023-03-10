@@ -29,6 +29,8 @@ PLEASE DO NOT USE THIS CODE TO ANY REAL-WORLD DATA OR COMPUTATION!
 
 This code is just a proof-of-concept meant for performance testing of our framework ONLY. It is full of security vulnerabilities that facilitate testing, debugging, and performance measurements. In any real-world deployment, these vulnerabilities can be easily exploited to leak all user inputs.
 
+This work started when the authors are very junior...
+
 ## Acknowledgement
 Code: [opensse-schemes](https://github.com/OpenSSE/opensse-schemes), [deephash](https://github.com/yuanli2333/Hadamard-Matrix-for-hashing)
 
