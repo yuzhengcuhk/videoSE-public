@@ -34,12 +34,12 @@ This work started when the authors are very junior ... Back to Dec, 2017 ...
 ## Acknowledgement
 Code: [opensse-schemes](https://github.com/OpenSSE/opensse-schemes), [deephash](https://github.com/yuanli2333/Hadamard-Matrix-for-hashing)
 
-Papar: We appreciate immense help from Sherman S.M. Chow for idea discussion, constructive comments, rebuttal finalization, and paper writing. We thank Jiafan Wang, Huangting Wu, Lucien K.L. Ng, Yongjun Zhao, and Di Tang for early-stage discussion and detailed comments.
+Papar: We appreciate immense help from Sherman S.M. Chow for idea discussion, constructive comments, rebuttal finalization, and paper writing. We thank Jiafan Wang, Huangting Wu, Lucien K.L. Ng, Yongjun Zhao, and Di Tang for the early-stage discussion and detailed comments.
 
 ReadMe: [GForce](https://github.com/Lucieno/gforce-public)
 
 ## Citation
-If you find our work is interesting, welcom to cite our paper,
+If you find our work is interesting, welcome to cite our paper,
 ```
 @inproceedings{mmsys/ZhengTDF22,
   author    = {Yu Zheng and
